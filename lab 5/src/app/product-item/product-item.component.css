@@ -1,0 +1,40 @@
+.contain-item {
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+
+.container-item-right {
+  padding-left: 20px;
+}
+
+.container-item-right p {
+  padding-top: 10px;
+}
+
+img {
+  width: auto;
+  height: 150px;
+}
+
+button {
+  background-color: white;
+  border-style: none;
+  cursor: pointer;
+}
+
+.buttons {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+
+.buttons button {
+  width: 100px;
+}
