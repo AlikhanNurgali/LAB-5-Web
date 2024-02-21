@@ -1,0 +1,18 @@
+<div class="container-item">
+  <div class="container-item-img"><img [src]="product.imgURL" /></div>
+
+  <div class="container-item-right">
+    <h3>
+      <a [href]="product.url" [title]="product.name" target="_blank">
+        {{ product.name }}
+      </a>
+    </h3>
+
+    <p>{{ product.description }}</p>
+    <p><b>Rating:</b> {{ product.rating }}</p>
+    <p><b>Price:</b><br> {{ formatedPrice(product.price) }}</p>
+    <div class="buttons">
+      <button (click)="handleDelete()">X</button>
+    </div>
+  </div>
+</div>
